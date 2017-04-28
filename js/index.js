@@ -1,6 +1,7 @@
 window.onload = function() {
 
 var si = require('systeminformation');
+var chart = require('chart-stream');
  
 // callback style
 si.cpu(function(data) {
@@ -12,6 +13,10 @@ si.cpu(function(data) {
 si.cpuCurrentspeed(function(data) {
   console.log(data);
 });
+
+/*si.cpuTemperature(function(data) {
+  console.log(data);
+});*/
 
 //Can we get replace this with the system information module?
   var cpuu = require('cputilization');

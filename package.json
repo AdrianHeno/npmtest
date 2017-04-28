@@ -1,6 +1,7 @@
 {
   "name": "npmtest",
   "version": "1.0.0",
+  "bundledDependencies": ["systeminformation", "cputilization", "chart-stream"],
   "description": "",
   "main": "main.js",
   "scripts": {
